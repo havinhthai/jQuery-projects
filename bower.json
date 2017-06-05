@@ -6,7 +6,7 @@
   "description": "Share example about jQuery and jQuery's Libraries",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/havinhthai/jQuery-projects",
   "ignore": [
     "**/.*",
     "node_modules",
