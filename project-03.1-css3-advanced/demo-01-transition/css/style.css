@@ -1,0 +1,21 @@
+.noidung {
+    display: block;
+    padding: 60px 200px;
+    margin: 0 auto;
+    width: 50%;
+    background: lightblue;
+    perspective: 800px;
+}
+
+img.anhdemo {
+    width: 100%;
+}
+
+img.anhdemo:hover {
+    /*transform: rotate(140deg);*/
+    transform: rotateX(760deg);
+    transform-origin: 0 50%;
+    transition: 1.4s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+}

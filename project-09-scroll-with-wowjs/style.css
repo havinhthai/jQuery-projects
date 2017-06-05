@@ -1,0 +1,20 @@
+.noidung {
+    padding: 100px 0;
+    background: lightblue;
+}
+
+.cangiua {
+    width: 960px;
+    margin: auto;
+}
+
+.anh {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+
+.anh:nth-child(3n+3) {
+    margin-right: 0;
+}

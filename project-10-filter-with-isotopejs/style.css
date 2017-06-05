@@ -1,0 +1,17 @@
+.content {
+    width: 90%;
+    margin: 30px auto auto;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li img {
+    width: 100%;
+}
+
+input {
+    padding: 5px 15px;
+}

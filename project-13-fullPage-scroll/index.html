@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="135 – 160 characters long">
+    <meta name="keywords" content="write your keywords in here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Full Page</title>
+
+    <link rel="stylesheet" href="../bower_components/fullpage.js/jquery.fullPage.css">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- <link rel="icon" href=""> -->
+</head>
+<body>
+    <main id="fullpage">
+        <div class="section page1">
+            <div class="container">
+                <h1>FullPage Scroll</h1>
+                <img src="img/profile.png" alt="">
+            </div>
+        </div>
+        <div class="section page2">
+            <img data-src="img/portfolio/cabin.png" alt="">
+        </div>
+        <div class="section page3">
+            <img src="img/portfolio/cake.png" alt="">
+        </div>
+        <div class="section page4">
+            <img src="img/portfolio/game.png" alt="">
+        </div>
+    </main>
+
+    <ul id="myMenu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+    </ul>
+
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/fullpage.js/vendors/jquery.easings.min.js"></script>
+    <script src="../bower_components/fullpage.js/jquery.fullPage.min.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>

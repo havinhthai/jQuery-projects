@@ -1,0 +1,28 @@
+body {
+    background: #9acfea;
+}
+
+.bgCarrot {
+    background: #f60!important;
+}
+
+.hieuung {
+    margin: 0 auto;
+    width: 600px;
+
+    text-align: justify;
+}
+
+.motkhoi h3 {
+    padding: 10px 5px;
+    margin: 0;
+    background-color: #C15757;
+    color: #fefefe;
+    cursor: pointer;
+}
+
+.ndmoikhoi {
+    padding: 10px 5px;
+    background: #fff;
+    border: 1px solid darkgray;
+}

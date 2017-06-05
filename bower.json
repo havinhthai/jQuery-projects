@@ -1,0 +1,30 @@
+{
+  "name": "jquery-master",
+  "authors": [
+    "Hà Vĩnh Thái <vinhthai997@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7",
+    "jquery.easing": "^1.3.1",
+    "fancybox": "^3.0.47",
+    "gsap": "greensock#^1.19.1",
+    "wow": "^1.1.2",
+    "isotope": "^3.0.4",
+    "Croppie": "croppie#^2.4.1",
+    "exif": "*",
+    "fullpage.js": "fullpage#^2.9.4"
+  }
+}

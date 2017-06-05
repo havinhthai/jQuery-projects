@@ -1,0 +1,75 @@
+.phantren {
+    position: relative;
+    height: 800px;
+}
+
+.anhnen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    background: url("../imgs/slide-doctor-bg.jpg");
+    background-size: cover;
+    opacity: 0;
+    transition: .4s;
+    animation: hienra 1.4s forwards;
+}
+
+@-webkit-keyframes hienra {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+img.cogai {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    z-index: 2;
+    transition: .4s;
+}
+
+.chuto, .chunho {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 3;
+    font-family: "Segoe UI Light";
+    font-size: 45px;
+}
+
+.chunho {
+    top: 29.5%;
+    left: 30%;
+    width: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.nut {
+    position: absolute;
+    top: 42%;
+    left: 33%;
+    padding: 10px 25px;
+    z-index: 4;
+    background: #13bfb1;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Segoe UI Light";
+    font-size: 24px;
+}
+
+.menu {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 1000px;
+    height: 100px;
+    z-index: 5;
+    background: #fff;
+}

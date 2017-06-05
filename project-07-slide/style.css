@@ -1,0 +1,123 @@
+.apple {
+    width: 100%;
+    height: 700px;
+}
+
+.anhslide {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+._1slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.prev, .next {
+    z-index: 4;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+li {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: gray;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+li:hover {
+    background: black;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dirasangtrai {
+    animation: dirasangtrai 1s forwards;
+}
+
+@keyframes dirasangtrai {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+.dirasangphai {
+    animation: dirasangphai 1s forwards;
+}
+
+@keyframes dirasangphai {
+    0% {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        left: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.divaosangphai {
+    animation: divaosangphai 1s forwards;
+}
+
+@keyframes divaosangphai {
+    0% {
+        left: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.divaosangtrai {
+    animation: divaosangtrai 1s forwards;
+}
+
+@keyframes divaosangtrai {
+    0% {
+        left: -100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.xanh {
+    background: transparent;
+    border: 1px solid gray;
+    transition: .4s;
+}

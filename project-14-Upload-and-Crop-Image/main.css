@@ -1,0 +1,26 @@
+.upload-image .upload-image-wrap,
+.upload-image .upload-result,
+.upload-image.ready .upload-msg {
+    display: none;
+}
+.upload-image.ready .upload-image-wrap {
+    display: block;
+}
+.upload-image.ready .upload-result {
+    display: inline-block;
+}
+.upload-image-wrap {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.upload-msg {
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+    color: #aaa;
+    width: 260px;
+    margin: 50px auto;
+    border: 1px solid #aaa;
+}

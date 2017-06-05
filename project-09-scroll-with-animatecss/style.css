@@ -1,0 +1,23 @@
+img {
+    width: 45%;
+    opacity: 0;
+    margin: 15px;
+}
+
+
+/*.fadeIn {*/
+    /*animation: fadeIn 1s forwards;*/
+/*}*/
+
+/*@keyframes fadeIn {*/
+    /*0% {*/
+        /*opacity: .3;*/
+        /*transform: translateY(15px);*/
+        /*visibility: visible;*/
+    /*}*/
+    /*100% {*/
+        /*opacity: 1;*/
+        /*transform: translateY(0);*/
+        /*visibility: visible;*/
+    /*}*/
+/*}*/

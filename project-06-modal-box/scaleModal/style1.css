@@ -1,0 +1,63 @@
+.nen {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    transition: .4s;
+    animation: hiemmo 1s forwards;
+}
+
+.show {
+    display: block;
+}
+
+@keyframes hiemo {
+    from {
+        opacity: .3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.noidung {
+    z-index: 2;
+    position: relative;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -150%);
+    width: 40%;
+    text-align: center;
+    background: #F3F66F;
+    animation: hienra 1s forwards;
+}
+
+@keyframes hienra {
+    from {
+        top: 0;
+        opacity: .3;
+    }
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+h3 {
+    z-index: 2;
+    padding: 15px 0;
+    margin: 0;
+    background: #F1D15F;
+    color: #333;
+}
+
+.text {
+    z-index: 2;
+    padding: 10px 15px;
+    color: #1B4B4D;
+    text-align: justify;
+}

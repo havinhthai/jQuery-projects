@@ -1,0 +1,20 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    padding: 15px;
+    background: #16a085;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bgChange {
+    background: #2ecc71;
+}
+
+i.change {
+    transform: rotate(180deg);
+    transition: .2s;
+}

@@ -1,0 +1,48 @@
+body {
+    overflow: hidden;
+}
+
+main {
+    position: relative;
+    left: 0;
+    transition: .4s;
+}
+button {
+    margin-top: 50px;
+    padding: 7px 25px;
+    background: #1B4B4D;
+    border: none;
+    color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #1b6d85;
+    transition: .4s;
+}
+
+li {
+    display: block;
+    padding: 10px 15px;
+}
+
+li:hover, .active {
+    background: #2c86a1;
+}
+
+li a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.moveIn {
+    left: 0;
+}
+
+.moveOut {
+    left: 250px
+}
