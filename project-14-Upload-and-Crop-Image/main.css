@@ -3,12 +3,15 @@
 .upload-image.ready .upload-msg {
     display: none;
 }
+
 .upload-image.ready .upload-image-wrap {
     display: block;
 }
+
 .upload-image.ready .upload-result {
     display: inline-block;
 }
+
 .upload-image-wrap {
     width: 200px;
     height: 200px;
@@ -22,5 +25,5 @@
     color: #aaa;
     width: 260px;
     margin: 50px auto;
-    border: 1px solid #aaa;
+    border: 1px dashed #aaa;
 }
