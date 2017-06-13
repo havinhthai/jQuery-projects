@@ -26,6 +26,7 @@
     "Croppie": "croppie#^2.4.1",
     "exif": "*",
     "fullpage.js": "fullpage#^2.9.4",
-    "sweetalert2": "^6.6.4"
+    "sweetalert2": "^6.6.4",
+    "moment": "momentjs#^2.18.1"
   }
 }
