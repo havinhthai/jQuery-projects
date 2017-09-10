@@ -27,6 +27,8 @@
     "exif": "*",
     "fullpage.js": "fullpage#^2.9.4",
     "sweetalert2": "^6.6.4",
-    "moment": "momentjs#^2.18.1"
+    "moment": "momentjs#^2.18.1",
+    "fine-uploader": "^5.13.0",
+    "dropzone": "^5.1.1"
   }
 }

@@ -7,8 +7,9 @@ $(function () {
         console.log($(window).scrollTop());
         let offsetTop = $('body').scrollTop();
         console.log(offsetTop);
+        console.log('> ', $('body').offset().top);
 
-        if (offsetTop >= 430 && offsetTop < 800) {
+        if (offsetTop >= 430) {
             $('#mainNav').addClass('active');
         } else {
             $('#mainNav').removeClass('active');
