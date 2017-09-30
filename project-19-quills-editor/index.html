@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="language" content="english">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Quill is a free, open source WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.">
+
+    <title>Full Editor - Quill</title>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"https://ajax.cloudflare.com/cdn-cgi/nexp/dok3v=9eecb7db59/","cloudflare-static": "https://ajax.cloudflare.com/cdn-cgi/scripts/c2b63e8a/"},atok:"22b46cb8c4ae552d84f3e2b1b9da7b3a",petok:"22d2fdaec90a8cfaee0a60438bed546f6f26e6f6-1506740625-1800",rocket: "a",zone:"quilljs.com"}];document.write('<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/nexp/dok3v=c37cbdadf2/cloudflare.min.js"><'+'\/script>');}}catch(e){};
+        //]]>
+    </script>
+
+    <link rel="stylesheet" href="//cdn.quilljs.com/1.3.2/quill.snow.css" />
+    <style>
+        body > #standalone-container {
+            margin: 50px auto;
+            max-width: 720px;
+        }
+        #editor-container {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div id="standalone-container">
+        <div id="toolbar-container">
+            <span class="ql-formats">
+                <select class="ql-font"></select>
+                <select class="ql-size"></select>
+            </span>
+
+            <span class="ql-formats">
+                <button class="ql-bold"></button>
+                <button class="ql-italic"></button>
+                <button class="ql-underline"></button>
+                <button class="ql-strike"></button>
+            </span>
+
+            <span class="ql-formats">
+                <select class="ql-color"></select>
+                <select class="ql-background"></select>
+            </span>
+
+            <span class="ql-formats">
+                <button class="ql-script" value="sub"></button>
+                <button class="ql-script" value="super"></button>
+            </span>
+            <span class="ql-formats">
+                <button class="ql-header" value="1"></button>
+                <button class="ql-header" value="2"></button>
+                <button class="ql-blockquote"></button>
+                <button class="ql-code-block"></button>
+            </span>
+
+            <span class="ql-formats">
+                <button class="ql-list" value="ordered"></button>
+                <button class="ql-list" value="bullet"></button>
+                <button class="ql-indent" value="-1"></button>
+                <button class="ql-indent" value="+1"></button>
+            </span>
+
+            <span class="ql-formats">
+                <button class="ql-direction" value="rtl"></button>
+                <select class="ql-align"></select>
+            </span>
+
+            <span class="ql-formats">
+                <button class="ql-link"></button>
+                <button class="ql-image"></button>
+                <button class="ql-video"></button>
+                <button class="ql-formula"></button>
+            </span>
+
+            <span class="ql-formats">
+                <button class="ql-clean"></button>
+            </span>
+        </div>
+
+        <div id="editor-container"></div>
+    </div>
+
+    <script type="text/rocketscript" data-rocketsrc="//cdn.quilljs.com/1.3.2/quill.min.js"></script>
+    <script type="text/rocketscript" data-rocketsrc="function.js"></script>
+</body>
+</html>

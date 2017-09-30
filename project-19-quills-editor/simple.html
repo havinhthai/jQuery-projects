@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="135 – 160 characters long">
+    <meta name="keywords" content="write your keywords in here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quill Simple</title>
+
+    <!-- <link rel="icon" href=""> -->
+    <link href="https://cdn.quilljs.com/1.3.2/quill.snow.css" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="get">
+        <div id="editor">
+            <p>Hello World!</p>
+            <p>Some initial <strong>bold</strong> text</p>
+            <p><br></p>
+        </div>
+        <input type="hidden" id="hdTxt">
+        <button id="btnSubmit">Submit</button>
+    </form>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.2/quill.js"></script>
+    <script>
+        const quill = new Quill('#editor', {
+            theme: 'snow'
+        });
+
+        $('#btnSubmit').click(function (e) {
+            e.preventDefault();
+            $('#hdTxt').val($('.ql-editor > p').html());
+        })
+    </script>
+</body>
+</html>
